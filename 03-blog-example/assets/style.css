@@ -110,7 +110,7 @@ a {
 }
 
 .social-wrapper {
-  position: sticky;
+  position: fixed;
   top: 0px;
 }
 
@@ -143,6 +143,12 @@ a {
 @media (max-width: 975px) {
   .social-icons {
     display: none;
+  }
+}
+
+@media (max-width: 825px) {
+  main {
+    overflow-x: hidden;
   }
 }
 
